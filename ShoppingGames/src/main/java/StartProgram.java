@@ -36,8 +36,7 @@ public class StartProgram {
 			System.out.print("Enter the game to delete: ");
 			String game = in.nextLine();
 			Game toDelete = new Game(publisher, game);
-			lih.deleteGame(toDelete);4
-			+
+			lih.deleteGame(toDelete);
 
 		}
 
